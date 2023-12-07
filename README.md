@@ -1,6 +1,30 @@
 GramSense
 ---------
 
+Listener for Telegram channels and extractor for trading plans.
+
+Convert telegram channel message into trading plan JSON, example:
+```
+🇺🇸 PAIR 🔘1000BONK/USDT
+- Direction: Short
+- Mode: Cross 20x
+
+✔️ Entry Targets:
+0.008355
+
+☑️ Take Profits:
+1)0.008271
+2)0.008188
+3)0.008104
+4)0.008021
+5)0.007937
+6)0.007854
+➖➖➖➖➖➖
+
+✖️ Invalidation Price:
+0.009190499999999999
+```
+
 Required .env file
 ```
 OPENAI_API_KEY=<OpenAI API Key>
