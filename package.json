@@ -6,19 +6,27 @@
   "scripts": {
     "build": "rimraf build && npx tsc"
   },
-  "keywords": ["openai", "trading plan", "telegram"],
+  "keywords": [
+    "openai",
+    "trading plan",
+    "telegram"
+  ],
   "author": "James Azarja",
   "license": "ISC",
   "dependencies": {
     "@types/bluebird": "^3.5.42",
+    "airtable": "^0.12.2",
     "big-integer": "^1.6.52",
     "bluebird": "^3.7.2",
     "chalk": "^4.1.2",
+    "cron": "^3.1.6",
     "dotenv": "^16.3.1",
     "input": "^1.0.1",
+    "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "openai": "^4.20.1",
-    "telegram": "^2.19.10"
+    "telegram": "^2.19.10",
+    "tslib": "^2.6.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.4",
